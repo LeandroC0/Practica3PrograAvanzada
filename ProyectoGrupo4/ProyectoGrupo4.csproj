@@ -166,13 +166,9 @@
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\Startup.Auth.cs" />
     <Compile Include="Controllers\AccountController.cs" />
-    <Compile Include="Controllers\DetalleOrdenController.cs" />
-    <Compile Include="Controllers\EstadosController.cs" />
+    <Compile Include="Controllers\ComentariosController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ManageController.cs" />
-    <Compile Include="Controllers\OrdensController.cs" />
-    <Compile Include="Controllers\ProductosController.cs" />
-    <Compile Include="Controllers\ResennasController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -180,16 +176,15 @@
     <Compile Include="Migrations\202511180320533_UpdateDM.Designer.cs">
       <DependentUpon>202511180320533_UpdateDM.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202511231903232_PracticaProgramada3.cs" />
+    <Compile Include="Migrations\202511231903232_PracticaProgramada3.Designer.cs">
+      <DependentUpon>202511231903232_PracticaProgramada3.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
-    <Compile Include="Models\DetalleOrden.cs" />
-    <Compile Include="Models\Estado.cs" />
+    <Compile Include="Models\Comentario.cs" />
     <Compile Include="Models\IdentityModels.cs" />
-    <Compile Include="Models\ImagenProducto.cs" />
     <Compile Include="Models\ManageViewModels.cs" />
-    <Compile Include="Models\Orden.cs" />
-    <Compile Include="Models\Producto.cs" />
-    <Compile Include="Models\Resenna.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Startup.cs" />
   </ItemGroup>
@@ -264,31 +259,11 @@
     <Content Include="Views\Manage\VerifyPhoneNumber.cshtml" />
     <Content Include="Views\Shared\Lockout.cshtml" />
     <Content Include="Views\Shared\_LoginPartial.cshtml" />
-    <Content Include="Views\Estados\Create.cshtml" />
-    <Content Include="Views\Estados\Delete.cshtml" />
-    <Content Include="Views\Estados\Details.cshtml" />
-    <Content Include="Views\Estados\Edit.cshtml" />
-    <Content Include="Views\Estados\Index.cshtml" />
-    <Content Include="Views\DetalleOrden\Create.cshtml" />
-    <Content Include="Views\DetalleOrden\Delete.cshtml" />
-    <Content Include="Views\DetalleOrden\Details.cshtml" />
-    <Content Include="Views\DetalleOrden\Edit.cshtml" />
-    <Content Include="Views\DetalleOrden\Index.cshtml" />
-    <Content Include="Views\Productos\Create.cshtml" />
-    <Content Include="Views\Productos\Delete.cshtml" />
-    <Content Include="Views\Productos\Details.cshtml" />
-    <Content Include="Views\Productos\Edit.cshtml" />
-    <Content Include="Views\Productos\Index.cshtml" />
-    <Content Include="Views\Orden\Create.cshtml" />
-    <Content Include="Views\Orden\Delete.cshtml" />
-    <Content Include="Views\Orden\Details.cshtml" />
-    <Content Include="Views\Orden\Edit.cshtml" />
-    <Content Include="Views\Orden\Index.cshtml" />
-    <Content Include="Views\Resennas\Create.cshtml" />
-    <Content Include="Views\Resennas\Delete.cshtml" />
-    <Content Include="Views\Resennas\Details.cshtml" />
-    <Content Include="Views\Resennas\Edit.cshtml" />
-    <Content Include="Views\Resennas\Index.cshtml" />
+    <Content Include="Views\Comentarios\Create.cshtml" />
+    <Content Include="Views\Comentarios\Delete.cshtml" />
+    <Content Include="Views\Comentarios\Details.cshtml" />
+    <Content Include="Views\Comentarios\Edit.cshtml" />
+    <Content Include="Views\Comentarios\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
@@ -323,6 +298,9 @@
   <ItemGroup>
     <EmbeddedResource Include="Migrations\202511180320533_UpdateDM.resx">
       <DependentUpon>202511180320533_UpdateDM.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202511231903232_PracticaProgramada3.resx">
+      <DependentUpon>202511231903232_PracticaProgramada3.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
