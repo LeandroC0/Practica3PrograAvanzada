@@ -1,33 +1,65 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\marjo\\OneDrive\\Documentos\\GitHub\\Practica3PrograAvanzada\\",
+  "WorkspaceRootPath": "C:\\Github\\Practica3PrograAvanzada\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{68C6002D-4B64-493B-A613-2C2326AB3C1B}|ProyectoGrupo4\\ProyectoGrupo4.csproj|c:\\users\\marjo\\onedrive\\documentos\\github\\practica3prograavanzada\\proyectogrupo4\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{68C6002D-4B64-493B-A613-2C2326AB3C1B}|ProyectoGrupo4\\ProyectoGrupo4.csproj|solutionrelative:proyectogrupo4\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{68C6002D-4B64-493B-A613-2C2326AB3C1B}|ProyectoGrupo4\\ProyectoGrupo4.csproj|c:\\github\\practica3prograavanzada\\proyectogrupo4\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{68C6002D-4B64-493B-A613-2C2326AB3C1B}|ProyectoGrupo4\\ProyectoGrupo4.csproj|solutionrelative:proyectogrupo4\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{68C6002D-4B64-493B-A613-2C2326AB3C1B}|ProyectoGrupo4\\ProyectoGrupo4.csproj|c:\\users\\marjo\\onedrive\\documentos\\github\\practica3prograavanzada\\proyectogrupo4\\app_start\\routeconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{68C6002D-4B64-493B-A613-2C2326AB3C1B}|ProyectoGrupo4\\ProyectoGrupo4.csproj|solutionrelative:proyectogrupo4\\app_start\\routeconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{68C6002D-4B64-493B-A613-2C2326AB3C1B}|ProyectoGrupo4\\ProyectoGrupo4.csproj|c:\\github\\practica3prograavanzada\\proyectogrupo4\\views\\comentarios\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{68C6002D-4B64-493B-A613-2C2326AB3C1B}|ProyectoGrupo4\\ProyectoGrupo4.csproj|solutionrelative:proyectogrupo4\\views\\comentarios\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{68C6002D-4B64-493B-A613-2C2326AB3C1B}|ProyectoGrupo4\\ProyectoGrupo4.csproj|C:\\Users\\marjo\\OneDrive\\Documentos\\GitHub\\Practica3PrograAvanzada\\proyectogrupo4\\models\\comentario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{68C6002D-4B64-493B-A613-2C2326AB3C1B}|ProyectoGrupo4\\ProyectoGrupo4.csproj|solutionrelative:proyectogrupo4\\models\\comentario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{68C6002D-4B64-493B-A613-2C2326AB3C1B}|ProyectoGrupo4\\ProyectoGrupo4.csproj|c:\\github\\practica3prograavanzada\\proyectogrupo4\\views\\comentarios\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{68C6002D-4B64-493B-A613-2C2326AB3C1B}|ProyectoGrupo4\\ProyectoGrupo4.csproj|solutionrelative:proyectogrupo4\\views\\comentarios\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{68C6002D-4B64-493B-A613-2C2326AB3C1B}|ProyectoGrupo4\\ProyectoGrupo4.csproj|C:\\Users\\marjo\\OneDrive\\Documentos\\GitHub\\Practica3PrograAvanzada\\proyectogrupo4\\models\\identitymodels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{68C6002D-4B64-493B-A613-2C2326AB3C1B}|ProyectoGrupo4\\ProyectoGrupo4.csproj|solutionrelative:proyectogrupo4\\models\\identitymodels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{68C6002D-4B64-493B-A613-2C2326AB3C1B}|ProyectoGrupo4\\ProyectoGrupo4.csproj|C:\\Users\\marjo\\OneDrive\\Documentos\\GitHub\\Practica3PrograAvanzada\\proyectogrupo4\\controllers\\comentarioscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{68C6002D-4B64-493B-A613-2C2326AB3C1B}|ProyectoGrupo4\\ProyectoGrupo4.csproj|C:\\Github\\Practica3PrograAvanzada\\proyectogrupo4\\controllers\\comentarioscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{68C6002D-4B64-493B-A613-2C2326AB3C1B}|ProyectoGrupo4\\ProyectoGrupo4.csproj|solutionrelative:proyectogrupo4\\controllers\\comentarioscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{68C6002D-4B64-493B-A613-2C2326AB3C1B}|ProyectoGrupo4\\ProyectoGrupo4.csproj|c:\\users\\marjo\\onedrive\\documentos\\github\\practica3prograavanzada\\proyectogrupo4\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{68C6002D-4B64-493B-A613-2C2326AB3C1B}|ProyectoGrupo4\\ProyectoGrupo4.csproj|c:\\github\\practica3prograavanzada\\proyectogrupo4\\controllers\\managecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{68C6002D-4B64-493B-A613-2C2326AB3C1B}|ProyectoGrupo4\\ProyectoGrupo4.csproj|solutionrelative:proyectogrupo4\\controllers\\managecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68C6002D-4B64-493B-A613-2C2326AB3C1B}|ProyectoGrupo4\\ProyectoGrupo4.csproj|c:\\github\\practica3prograavanzada\\proyectogrupo4\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{68C6002D-4B64-493B-A613-2C2326AB3C1B}|ProyectoGrupo4\\ProyectoGrupo4.csproj|solutionrelative:proyectogrupo4\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68C6002D-4B64-493B-A613-2C2326AB3C1B}|ProyectoGrupo4\\ProyectoGrupo4.csproj|c:\\github\\practica3prograavanzada\\proyectogrupo4\\models\\accountviewmodels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{68C6002D-4B64-493B-A613-2C2326AB3C1B}|ProyectoGrupo4\\ProyectoGrupo4.csproj|solutionrelative:proyectogrupo4\\models\\accountviewmodels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68C6002D-4B64-493B-A613-2C2326AB3C1B}|ProyectoGrupo4\\ProyectoGrupo4.csproj|C:\\Github\\Practica3PrograAvanzada\\proyectogrupo4\\models\\comentario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{68C6002D-4B64-493B-A613-2C2326AB3C1B}|ProyectoGrupo4\\ProyectoGrupo4.csproj|solutionrelative:proyectogrupo4\\models\\comentario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68C6002D-4B64-493B-A613-2C2326AB3C1B}|ProyectoGrupo4\\ProyectoGrupo4.csproj|C:\\Github\\Practica3PrograAvanzada\\proyectogrupo4\\models\\identitymodels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{68C6002D-4B64-493B-A613-2C2326AB3C1B}|ProyectoGrupo4\\ProyectoGrupo4.csproj|solutionrelative:proyectogrupo4\\models\\identitymodels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68C6002D-4B64-493B-A613-2C2326AB3C1B}|ProyectoGrupo4\\ProyectoGrupo4.csproj|c:\\github\\practica3prograavanzada\\proyectogrupo4\\models\\manageviewmodels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{68C6002D-4B64-493B-A613-2C2326AB3C1B}|ProyectoGrupo4\\ProyectoGrupo4.csproj|solutionrelative:proyectogrupo4\\models\\manageviewmodels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68C6002D-4B64-493B-A613-2C2326AB3C1B}|ProyectoGrupo4\\ProyectoGrupo4.csproj|c:\\github\\practica3prograavanzada\\proyectogrupo4\\app_start\\identityconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{68C6002D-4B64-493B-A613-2C2326AB3C1B}|ProyectoGrupo4\\ProyectoGrupo4.csproj|solutionrelative:proyectogrupo4\\app_start\\identityconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68C6002D-4B64-493B-A613-2C2326AB3C1B}|ProyectoGrupo4\\ProyectoGrupo4.csproj|c:\\github\\practica3prograavanzada\\proyectogrupo4\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{68C6002D-4B64-493B-A613-2C2326AB3C1B}|ProyectoGrupo4\\ProyectoGrupo4.csproj|solutionrelative:proyectogrupo4\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68C6002D-4B64-493B-A613-2C2326AB3C1B}|ProyectoGrupo4\\ProyectoGrupo4.csproj|C:\\Github\\Practica3PrograAvanzada\\proyectogrupo4\\app_start\\routeconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{68C6002D-4B64-493B-A613-2C2326AB3C1B}|ProyectoGrupo4\\ProyectoGrupo4.csproj|solutionrelative:proyectogrupo4\\app_start\\routeconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68C6002D-4B64-493B-A613-2C2326AB3C1B}|ProyectoGrupo4\\ProyectoGrupo4.csproj|C:\\Github\\Practica3PrograAvanzada\\proyectogrupo4\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{68C6002D-4B64-493B-A613-2C2326AB3C1B}|ProyectoGrupo4\\ProyectoGrupo4.csproj|solutionrelative:proyectogrupo4\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{68C6002D-4B64-493B-A613-2C2326AB3C1B}|ProyectoGrupo4\\ProyectoGrupo4.csproj|C:\\Users\\marjo\\OneDrive\\Documentos\\GitHub\\Practica3PrograAvanzada\\proyectogrupo4\\migrations\\202511231903232_practicaprogramada3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{68C6002D-4B64-493B-A613-2C2326AB3C1B}|ProyectoGrupo4\\ProyectoGrupo4.csproj|C:\\Github\\Practica3PrograAvanzada\\proyectogrupo4\\migrations\\202511231903232_practicaprogramada3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{68C6002D-4B64-493B-A613-2C2326AB3C1B}|ProyectoGrupo4\\ProyectoGrupo4.csproj|solutionrelative:proyectogrupo4\\migrations\\202511231903232_practicaprogramada3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -38,7 +70,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 189,
-          "SelectedChildIndex": 54,
+          "SelectedChildIndex": 59,
           "Children": [
             {
               "$type": "Bookmark",
@@ -257,38 +289,172 @@
               "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
             },
             {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Login.cshtml",
-              "DocumentMoniker": "C:\\Users\\marjo\\OneDrive\\Documentos\\GitHub\\Practica3PrograAvanzada\\ProyectoGrupo4\\Views\\Account\\Login.cshtml",
-              "RelativeDocumentMoniker": "ProyectoGrupo4\\Views\\Account\\Login.cshtml",
-              "ToolTip": "C:\\Users\\marjo\\OneDrive\\Documentos\\GitHub\\Practica3PrograAvanzada\\ProyectoGrupo4\\Views\\Account\\Login.cshtml",
-              "RelativeToolTip": "ProyectoGrupo4\\Views\\Account\\Login.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAABLAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-23T20:48:12.46Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "RouteConfig.cs",
-              "DocumentMoniker": "C:\\Users\\marjo\\OneDrive\\Documentos\\GitHub\\Practica3PrograAvanzada\\ProyectoGrupo4\\App_Start\\RouteConfig.cs",
-              "RelativeDocumentMoniker": "ProyectoGrupo4\\App_Start\\RouteConfig.cs",
-              "ToolTip": "C:\\Users\\marjo\\OneDrive\\Documentos\\GitHub\\Practica3PrograAvanzada\\ProyectoGrupo4\\App_Start\\RouteConfig.cs",
-              "RelativeToolTip": "ProyectoGrupo4\\App_Start\\RouteConfig.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABYAAAABAAAAAAAAAA==",
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Github\\Practica3PrograAvanzada\\ProyectoGrupo4\\Views\\Comentarios\\Index.cshtml",
+              "RelativeDocumentMoniker": "ProyectoGrupo4\\Views\\Comentarios\\Index.cshtml",
+              "ToolTip": "C:\\Github\\Practica3PrograAvanzada\\ProyectoGrupo4\\Views\\Comentarios\\Index.cshtml",
+              "RelativeToolTip": "ProyectoGrupo4\\Views\\Comentarios\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-24T01:08:24.615Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Github\\Practica3PrograAvanzada\\ProyectoGrupo4\\Views\\Comentarios\\Create.cshtml",
+              "RelativeDocumentMoniker": "ProyectoGrupo4\\Views\\Comentarios\\Create.cshtml",
+              "ToolTip": "C:\\Github\\Practica3PrograAvanzada\\ProyectoGrupo4\\Views\\Comentarios\\Create.cshtml",
+              "RelativeToolTip": "ProyectoGrupo4\\Views\\Comentarios\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-24T01:08:19.486Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "IdentityConfig.cs",
+              "DocumentMoniker": "C:\\Github\\Practica3PrograAvanzada\\ProyectoGrupo4\\App_Start\\IdentityConfig.cs",
+              "RelativeDocumentMoniker": "ProyectoGrupo4\\App_Start\\IdentityConfig.cs",
+              "ToolTip": "C:\\Github\\Practica3PrograAvanzada\\ProyectoGrupo4\\App_Start\\IdentityConfig.cs",
+              "RelativeToolTip": "ProyectoGrupo4\\App_Start\\IdentityConfig.cs",
+              "ViewState": "AgIAAFEAAAAAAAAAAAAmwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-23T20:41:11.653Z",
+              "WhenOpened": "2025-11-24T01:02:02.698Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "C:\\Github\\Practica3PrograAvanzada\\ProyectoGrupo4\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "ProyectoGrupo4\\Controllers\\AccountController.cs",
+              "ToolTip": "C:\\Github\\Practica3PrograAvanzada\\ProyectoGrupo4\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "ProyectoGrupo4\\Controllers\\AccountController.cs",
+              "ViewState": "AgIAAHwBAAAAAAAAAAAswN4BAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-24T01:01:51.765Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Github\\Practica3PrograAvanzada\\ProyectoGrupo4\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "ProyectoGrupo4\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Github\\Practica3PrograAvanzada\\ProyectoGrupo4\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "ProyectoGrupo4\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-24T00:56:10.319Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "202511231903232_PracticaProgramada3.cs",
+              "DocumentMoniker": "C:\\Github\\Practica3PrograAvanzada\\ProyectoGrupo4\\Migrations\\202511231903232_PracticaProgramada3.cs",
+              "RelativeDocumentMoniker": "ProyectoGrupo4\\Migrations\\202511231903232_PracticaProgramada3.cs",
+              "ToolTip": "C:\\Github\\Practica3PrograAvanzada\\ProyectoGrupo4\\Migrations\\202511231903232_PracticaProgramada3.cs",
+              "RelativeToolTip": "ProyectoGrupo4\\Migrations\\202511231903232_PracticaProgramada3.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAswB4AAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-23T19:03:27.681Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Comentario.cs",
+              "DocumentMoniker": "C:\\Github\\Practica3PrograAvanzada\\ProyectoGrupo4\\Models\\Comentario.cs",
+              "RelativeDocumentMoniker": "ProyectoGrupo4\\Models\\Comentario.cs",
+              "ToolTip": "C:\\Github\\Practica3PrograAvanzada\\ProyectoGrupo4\\Models\\Comentario.cs",
+              "RelativeToolTip": "ProyectoGrupo4\\Models\\Comentario.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-23T16:54:02.117Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "IdentityModels.cs",
+              "DocumentMoniker": "C:\\Github\\Practica3PrograAvanzada\\ProyectoGrupo4\\Models\\IdentityModels.cs",
+              "RelativeDocumentMoniker": "ProyectoGrupo4\\Models\\IdentityModels.cs",
+              "ToolTip": "C:\\Github\\Practica3PrograAvanzada\\ProyectoGrupo4\\Models\\IdentityModels.cs",
+              "RelativeToolTip": "ProyectoGrupo4\\Models\\IdentityModels.cs",
+              "ViewState": "AgIAAC4AAAAAAAAAAAAiwDUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-23T17:02:42.015Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ManageViewModels.cs",
+              "DocumentMoniker": "C:\\Github\\Practica3PrograAvanzada\\ProyectoGrupo4\\Models\\ManageViewModels.cs",
+              "RelativeDocumentMoniker": "ProyectoGrupo4\\Models\\ManageViewModels.cs",
+              "ToolTip": "C:\\Github\\Practica3PrograAvanzada\\ProyectoGrupo4\\Models\\ManageViewModels.cs",
+              "RelativeToolTip": "ProyectoGrupo4\\Models\\ManageViewModels.cs",
+              "ViewState": "AgIAAC8AAAAAAAAAAAAIwFUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-24T00:56:01.159Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AccountViewModels.cs",
+              "DocumentMoniker": "C:\\Github\\Practica3PrograAvanzada\\ProyectoGrupo4\\Models\\AccountViewModels.cs",
+              "RelativeDocumentMoniker": "ProyectoGrupo4\\Models\\AccountViewModels.cs",
+              "ToolTip": "C:\\Github\\Practica3PrograAvanzada\\ProyectoGrupo4\\Models\\AccountViewModels.cs",
+              "RelativeToolTip": "ProyectoGrupo4\\Models\\AccountViewModels.cs",
+              "ViewState": "AgIAAE0AAAAAAAAAAAAcwHQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-24T00:55:55.836Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ComentariosController.cs",
+              "DocumentMoniker": "C:\\Github\\Practica3PrograAvanzada\\ProyectoGrupo4\\Controllers\\ComentariosController.cs",
+              "RelativeDocumentMoniker": "ProyectoGrupo4\\Controllers\\ComentariosController.cs",
+              "ToolTip": "C:\\Github\\Practica3PrograAvanzada\\ProyectoGrupo4\\Controllers\\ComentariosController.cs",
+              "RelativeToolTip": "ProyectoGrupo4\\Controllers\\ComentariosController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-23T17:20:42.382Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ManageController.cs",
+              "DocumentMoniker": "C:\\Github\\Practica3PrograAvanzada\\ProyectoGrupo4\\Controllers\\ManageController.cs",
+              "RelativeDocumentMoniker": "ProyectoGrupo4\\Controllers\\ManageController.cs",
+              "ToolTip": "C:\\Github\\Practica3PrograAvanzada\\ProyectoGrupo4\\Controllers\\ManageController.cs",
+              "RelativeToolTip": "ProyectoGrupo4\\Controllers\\ManageController.cs",
+              "ViewState": "AgIAACgBAAAAAAAAAAAswIQBAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-24T01:04:39.247Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
               "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\marjo\\OneDrive\\Documentos\\GitHub\\Practica3PrograAvanzada\\ProyectoGrupo4\\Views\\Shared\\_Layout.cshtml",
+              "DocumentMoniker": "C:\\Github\\Practica3PrograAvanzada\\ProyectoGrupo4\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "ProyectoGrupo4\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\marjo\\OneDrive\\Documentos\\GitHub\\Practica3PrograAvanzada\\ProyectoGrupo4\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Github\\Practica3PrograAvanzada\\ProyectoGrupo4\\Views\\Shared\\_Layout.cshtml",
               "RelativeToolTip": "ProyectoGrupo4\\Views\\Shared\\_Layout.cshtml",
               "ViewState": "AgIAABAAAAAAAAAAAAAwwBsAAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -297,53 +463,28 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "202511231903232_PracticaProgramada3.cs",
-              "DocumentMoniker": "C:\\Users\\marjo\\OneDrive\\Documentos\\GitHub\\Practica3PrograAvanzada\\ProyectoGrupo4\\Migrations\\202511231903232_PracticaProgramada3.cs",
-              "RelativeDocumentMoniker": "ProyectoGrupo4\\Migrations\\202511231903232_PracticaProgramada3.cs",
-              "ToolTip": "C:\\Users\\marjo\\OneDrive\\Documentos\\GitHub\\Practica3PrograAvanzada\\ProyectoGrupo4\\Migrations\\202511231903232_PracticaProgramada3.cs",
-              "RelativeToolTip": "ProyectoGrupo4\\Migrations\\202511231903232_PracticaProgramada3.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAswB4AAAA7AAAAAAAAAA==",
+              "DocumentIndex": 12,
+              "Title": "RouteConfig.cs",
+              "DocumentMoniker": "C:\\Github\\Practica3PrograAvanzada\\ProyectoGrupo4\\App_Start\\RouteConfig.cs",
+              "RelativeDocumentMoniker": "ProyectoGrupo4\\App_Start\\RouteConfig.cs",
+              "ToolTip": "C:\\Github\\Practica3PrograAvanzada\\ProyectoGrupo4\\App_Start\\RouteConfig.cs",
+              "RelativeToolTip": "ProyectoGrupo4\\App_Start\\RouteConfig.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABYAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-23T19:03:27.681Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "ComentariosController.cs",
-              "DocumentMoniker": "C:\\Users\\marjo\\OneDrive\\Documentos\\GitHub\\Practica3PrograAvanzada\\ProyectoGrupo4\\Controllers\\ComentariosController.cs",
-              "RelativeDocumentMoniker": "ProyectoGrupo4\\Controllers\\ComentariosController.cs",
-              "ToolTip": "C:\\Users\\marjo\\OneDrive\\Documentos\\GitHub\\Practica3PrograAvanzada\\ProyectoGrupo4\\Controllers\\ComentariosController.cs",
-              "RelativeToolTip": "ProyectoGrupo4\\Controllers\\ComentariosController.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAiwBQAAAAhAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-23T17:20:42.382Z",
+              "WhenOpened": "2025-11-23T20:41:11.653Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "IdentityModels.cs",
-              "DocumentMoniker": "C:\\Users\\marjo\\OneDrive\\Documentos\\GitHub\\Practica3PrograAvanzada\\ProyectoGrupo4\\Models\\IdentityModels.cs",
-              "RelativeDocumentMoniker": "ProyectoGrupo4\\Models\\IdentityModels.cs",
-              "ToolTip": "C:\\Users\\marjo\\OneDrive\\Documentos\\GitHub\\Practica3PrograAvanzada\\ProyectoGrupo4\\Models\\IdentityModels.cs",
-              "RelativeToolTip": "ProyectoGrupo4\\Models\\IdentityModels.cs",
-              "ViewState": "AgIAADEAAAAAAAAAAADwvzUAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-23T17:02:42.015Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Comentario.cs",
-              "DocumentMoniker": "C:\\Users\\marjo\\OneDrive\\Documentos\\GitHub\\Practica3PrograAvanzada\\ProyectoGrupo4\\Models\\Comentario.cs",
-              "RelativeDocumentMoniker": "ProyectoGrupo4\\Models\\Comentario.cs",
-              "ToolTip": "C:\\Users\\marjo\\OneDrive\\Documentos\\GitHub\\Practica3PrograAvanzada\\ProyectoGrupo4\\Models\\Comentario.cs",
-              "RelativeToolTip": "ProyectoGrupo4\\Models\\Comentario.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAA3wA4AAAAbAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-23T16:54:02.117Z",
+              "DocumentIndex": 11,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Github\\Practica3PrograAvanzada\\ProyectoGrupo4\\Views\\Account\\Login.cshtml",
+              "RelativeDocumentMoniker": "ProyectoGrupo4\\Views\\Account\\Login.cshtml",
+              "ToolTip": "C:\\Github\\Practica3PrograAvanzada\\ProyectoGrupo4\\Views\\Account\\Login.cshtml",
+              "RelativeToolTip": "ProyectoGrupo4\\Views\\Account\\Login.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAABLAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-23T20:48:12.46Z",
               "EditorCaption": ""
             }
           ]

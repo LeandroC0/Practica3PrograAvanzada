@@ -1,45 +1,32 @@
 ﻿@model IEnumerable<ProyectoGrupo4.Models.Comentario>
 
-@{
-    ViewBag.Title = "Index";
+<h2>Comentarios del Blog</h2>
+
+@if (ViewBag.Mensaje != null)
+{
+    <div class="alert alert-success">@ViewBag.Mensaje</div>
 }
 
-<h2>Index</h2>
+<p><strong>Usuario logueado:</strong> @ViewBag.Usuario</p>
+<p><strong>Total de comentarios:</strong> @ViewBag.TotalComentarios</p>
 
 <p>
-    @Html.ActionLink("Create New", "Create")
+    @Html.ActionLink("Agregar comentario", "Create", null, new { @class = "btn btn-primary" })
 </p>
-<table class="table">
+
+<table class="table table-striped">
     <tr>
-        <th>
-            @Html.DisplayNameFor(model => model.User.NombreUsuario)
-        </th>
-        <th>
-            @Html.DisplayNameFor(model => model.Texto)
-        </th>
-        <th>
-            @Html.DisplayNameFor(model => model.FechaCreacion)
-        </th>
-        <th></th>
+        <th>Comentario</th>
+        <th>Usuario</th>
+        <th>Fecha</th>
     </tr>
 
-@foreach (var item in Model) {
-    <tr>
-        <td>
-            @Html.DisplayFor(modelItem => item.User.NombreUsuario)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.Texto)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.FechaCreacion)
-        </td>
-        <td>
-            @Html.ActionLink("Edit", "Edit", new { id=item.Id }) |
-            @Html.ActionLink("Details", "Details", new { id=item.Id }) |
-            @Html.ActionLink("Delete", "Delete", new { id=item.Id })
-        </td>
-    </tr>
-}
-
+    @foreach (var c in Model)
+    {
+        <tr>
+            <td>@c.Texto</td>
+            <td>@c.User.NombreUsuario</td>
+            <td>@c.FechaCreacion</td>
+        </tr>
+    }
 </table>
