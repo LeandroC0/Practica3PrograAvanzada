@@ -4,6 +4,7 @@ using System.Linq;
 using System.Net;
 using System.Web.Mvc;
 using Microsoft.AspNet.Identity;
+using ProyectoGrupo4.Common;
 using ProyectoGrupo4.Models;
 
 namespace ProyectoGrupo4.Controllers
@@ -16,18 +17,25 @@ namespace ProyectoGrupo4.Controllers
         // GET: Comentarios
         public ActionResult Index()
         {
-            var comentarios = db.Comentarios.Include(c => c.User)
-                                            .OrderByDescending(c => c.FechaCreacion)
-                                            .ToList();
+            try
+            {
+                var comentarios = db.Comentarios.Include(c => c.User)
+                                                .OrderByDescending(c => c.FechaCreacion)
+                                                .ToList();
 
-            // Enviar datos requeridos por la práctica
-            ViewBag.Usuario = User.Identity.GetUserName();
-            ViewBag.TotalComentarios = comentarios.Count;
+                // Enviar datos requeridos por la práctica
+                ViewBag.Usuario = User.Identity.GetUserName();
+                ViewBag.TotalComentarios = comentarios.Count;
 
-            if (TempData["Mensaje"] != null)
-                ViewBag.Mensaje = TempData["Mensaje"];
+                if (TempData["Mensaje"] != null)
+                    ViewBag.Mensaje = TempData["Mensaje"];
 
-            return View(comentarios);
+                return View(comentarios);
+            }
+            catch (Exception ex)
+            {
+                throw new PracticaException("Ocurrio un error al cargar los comentarios. ");
+            }
         }
 
         // GET: Comentarios/Create
@@ -41,22 +49,26 @@ namespace ProyectoGrupo4.Controllers
         [ValidateAntiForgeryToken]
         public ActionResult Create(Comentario comentario)
         {
-            if (ModelState.IsValid)
+            try {
+                if (ModelState.IsValid)
+                {
+                    comentario.UserId = User.Identity.GetUserId();
+                    comentario.FechaCreacion = DateTime.Now;
+
+                    db.Comentarios.Add(comentario);
+                    db.SaveChanges();
+
+                    TempData["Mensaje"] = "Comentario publicado correctamente.";
+                    return RedirectToAction("Index");
+                }
+
+                return View(comentario);
+            }
+            catch (Exception ex)
             {
-                comentario.UserId = User.Identity.GetUserId();
-                comentario.FechaCreacion = DateTime.Now;
-
-                db.Comentarios.Add(comentario);
-                db.SaveChanges();
-
-                TempData["Mensaje"] = "Comentario publicado correctamente.";
-                return RedirectToAction("Index");
+                throw new PracticaException("No se pudo crear el comentario. Intente nuevamente.");
+            }
             }
 
-            return View(comentario);
-        }
-
-        // NO necesitas Edit ni Delete para la práctica, pero si los quieres, los mantienes.
-        // En el enunciado, solo se pide ver y crear comentarios.
     }
 }

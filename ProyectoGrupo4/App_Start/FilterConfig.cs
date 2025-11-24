@@ -8,6 +8,7 @@ namespace ProyectoGrupo4
         public static void RegisterGlobalFilters(GlobalFilterCollection filters)
         {
             filters.Add(new HandleErrorAttribute());
+            filters.Add(new ProyectoGrupo4.Filters.PracticaFilter());
         }
     }
 }
