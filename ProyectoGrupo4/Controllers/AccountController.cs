@@ -78,7 +78,9 @@ namespace ProyectoGrupo4.Controllers
             var result = await SignInManager.PasswordSignInAsync(model.NombreUsuario, model.Password, model.RememberMe, shouldLockout: false);
             switch (result)
             {
+
                 case SignInStatus.Success:
+                    TempData["MensajeBienvenida"] = $"¡Bienvenido de nuevo, {model.NombreUsuario}!";
                     return RedirectToLocal(returnUrl);
                 case SignInStatus.LockedOut:
                     return View("Lockout");
@@ -158,6 +160,9 @@ namespace ProyectoGrupo4.Controllers
                     await UserManager.AddToRoleAsync(user.Id, "Asociado");
 
                     await SignInManager.SignInAsync(user, isPersistent:false, rememberBrowser:false);
+
+                    TempData["MensajeBienvenida"] = $"¡Tu cuenta ha sido creada! Bienvenido, {user.UserName}!";
+
 
                     return RedirectToAction("Index", "Home");
                 }

@@ -10,6 +10,8 @@
 
 </head>
 <body>
+  
+
     <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-dark bg-primary">
         <div class="container">
             @Html.ActionLink("BlogG#4", "Index", "Home", new { area = "" }, new { @class = "navbar-brand" })
@@ -22,12 +24,32 @@
                     <li>@Html.ActionLink("Inicio", "Index", "Home", new { area = "" }, new { @class = "nav-link" })</li>
                     <li>@Html.ActionLink("Comentarios", "Index", "Comentarios", new { area = "" }, new { @class = "nav-link" })</li>
                 </ul>
-                 @Html.Partial("_LoginPartial")
+                @Html.Partial("_LoginPartial")
             </div>
         </div>
     </nav>
     <div class="container body-content">
         @RenderBody()
+
+        @if (TempData["MensajeBienvenida"] != null)
+        {
+            <div id="mensajeBienvenida" class="alert alert-success alert-dismissible fade show text-center mt-3 shadow-lg" role="alert" style="font-size:1.2rem; border-radius: 10px;">
+                <strong>¡Hola!</strong> @TempData["MensajeBienvenida"]
+                <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+            </div>
+
+            <script>
+        
+        setTimeout(function() {
+            var alertNode = document.getElementById('mensajeBienvenida');
+            if(alertNode) {
+                var bsAlert = bootstrap.Alert.getOrCreateInstance(alertNode);
+                bsAlert.close();
+            }
+        }, 5000);
+            </script>
+        }
+
         <hr />
         <footer>
             <p>&copy; @DateTime.Now.Year - BlogG#4</p>
