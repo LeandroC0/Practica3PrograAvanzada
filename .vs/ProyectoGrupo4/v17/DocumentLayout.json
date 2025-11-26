@@ -3,12 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\marjo\\OneDrive\\Documentos\\GitHub\\Practica3PrograAvanzada\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{68C6002D-4B64-493B-A613-2C2326AB3C1B}|ProyectoGrupo4\\Practica3Grupo4.csproj|C:\\Users\\marjo\\OneDrive\\Documentos\\GitHub\\Practica3PrograAvanzada\\proyectogrupo4\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{68C6002D-4B64-493B-A613-2C2326AB3C1B}|ProyectoGrupo4\\Practica3Grupo4.csproj|solutionrelative:proyectogrupo4\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{68C6002D-4B64-493B-A613-2C2326AB3C1B}|ProyectoGrupo4\\Practica3Grupo4.csproj|C:\\Users\\marjo\\OneDrive\\Documentos\\GitHub\\Practica3PrograAvanzada\\proyectogrupo4\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{68C6002D-4B64-493B-A613-2C2326AB3C1B}|ProyectoGrupo4\\Practica3Grupo4.csproj|solutionrelative:proyectogrupo4\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{68C6002D-4B64-493B-A613-2C2326AB3C1B}|ProyectoGrupo4\\Practica3Grupo4.csproj|c:\\users\\marjo\\onedrive\\documentos\\github\\practica3prograavanzada\\proyectogrupo4\\views\\comentarios\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{68C6002D-4B64-493B-A613-2C2326AB3C1B}|ProyectoGrupo4\\Practica3Grupo4.csproj|solutionrelative:proyectogrupo4\\views\\comentarios\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{68C6002D-4B64-493B-A613-2C2326AB3C1B}|ProyectoGrupo4\\Practica3Grupo4.csproj|C:\\Users\\marjo\\OneDrive\\Documentos\\GitHub\\Practica3PrograAvanzada\\proyectogrupo4\\views\\comentarios\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -17,6 +13,22 @@
     {
       "AbsoluteMoniker": "D:0:0:{68C6002D-4B64-493B-A613-2C2326AB3C1B}|ProyectoGrupo4\\Practica3Grupo4.csproj|C:\\Users\\marjo\\OneDrive\\Documentos\\GitHub\\Practica3PrograAvanzada\\proyectogrupo4\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{68C6002D-4B64-493B-A613-2C2326AB3C1B}|ProyectoGrupo4\\Practica3Grupo4.csproj|solutionrelative:proyectogrupo4\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68C6002D-4B64-493B-A613-2C2326AB3C1B}|ProyectoGrupo4\\Practica3Grupo4.csproj|C:\\Users\\marjo\\OneDrive\\Documentos\\GitHub\\Practica3PrograAvanzada\\proyectogrupo4\\models\\comentario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{68C6002D-4B64-493B-A613-2C2326AB3C1B}|ProyectoGrupo4\\Practica3Grupo4.csproj|solutionrelative:proyectogrupo4\\models\\comentario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68C6002D-4B64-493B-A613-2C2326AB3C1B}|ProyectoGrupo4\\Practica3Grupo4.csproj|C:\\Users\\marjo\\OneDrive\\Documentos\\GitHub\\Practica3PrograAvanzada\\proyectogrupo4\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{68C6002D-4B64-493B-A613-2C2326AB3C1B}|ProyectoGrupo4\\Practica3Grupo4.csproj|solutionrelative:proyectogrupo4\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68C6002D-4B64-493B-A613-2C2326AB3C1B}|ProyectoGrupo4\\Practica3Grupo4.csproj|c:\\users\\marjo\\onedrive\\documentos\\github\\practica3prograavanzada\\proyectogrupo4\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{68C6002D-4B64-493B-A613-2C2326AB3C1B}|ProyectoGrupo4\\Practica3Grupo4.csproj|solutionrelative:proyectogrupo4\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68C6002D-4B64-493B-A613-2C2326AB3C1B}|ProyectoGrupo4\\Practica3Grupo4.csproj|C:\\Users\\marjo\\OneDrive\\Documentos\\GitHub\\Practica3PrograAvanzada\\proyectogrupo4\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{68C6002D-4B64-493B-A613-2C2326AB3C1B}|ProyectoGrupo4\\Practica3Grupo4.csproj|solutionrelative:proyectogrupo4\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{68C6002D-4B64-493B-A613-2C2326AB3C1B}|ProyectoGrupo4\\Practica3Grupo4.csproj|C:\\Users\\marjo\\OneDrive\\Documentos\\GitHub\\Practica3PrograAvanzada\\proyectogrupo4\\models\\accountviewmodels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -29,14 +41,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{68C6002D-4B64-493B-A613-2C2326AB3C1B}|ProyectoGrupo4\\ProyectoGrupo4.csproj|C:\\Users\\marjo\\OneDrive\\Documentos\\GitHub\\Practica3PrograAvanzada\\proyectogrupo4\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
       "RelativeMoniker": "D:0:0:{68C6002D-4B64-493B-A613-2C2326AB3C1B}|ProyectoGrupo4\\ProyectoGrupo4.csproj|solutionrelative:proyectogrupo4\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{68C6002D-4B64-493B-A613-2C2326AB3C1B}|ProyectoGrupo4\\Practica3Grupo4.csproj|C:\\Users\\marjo\\OneDrive\\Documentos\\GitHub\\Practica3PrograAvanzada\\proyectogrupo4\\models\\comentario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{68C6002D-4B64-493B-A613-2C2326AB3C1B}|ProyectoGrupo4\\Practica3Grupo4.csproj|solutionrelative:proyectogrupo4\\models\\comentario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{68C6002D-4B64-493B-A613-2C2326AB3C1B}|ProyectoGrupo4\\Practica3Grupo4.csproj|C:\\Users\\marjo\\OneDrive\\Documentos\\GitHub\\Practica3PrograAvanzada\\proyectogrupo4\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{68C6002D-4B64-493B-A613-2C2326AB3C1B}|ProyectoGrupo4\\Practica3Grupo4.csproj|solutionrelative:proyectogrupo4\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{68C6002D-4B64-493B-A613-2C2326AB3C1B}|ProyectoGrupo4\\Practica3Grupo4.csproj|C:\\Users\\marjo\\OneDrive\\Documentos\\GitHub\\Practica3PrograAvanzada\\proyectogrupo4\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -90,7 +94,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 226,
-          "SelectedChildIndex": 61,
+          "SelectedChildIndex": 55,
           "Children": [
             {
               "$type": "Bookmark",
@@ -314,7 +318,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\marjo\\OneDrive\\Documentos\\GitHub\\Practica3PrograAvanzada\\ProyectoGrupo4\\Views\\Comentarios\\Create.cshtml",
+              "RelativeDocumentMoniker": "ProyectoGrupo4\\Views\\Comentarios\\Create.cshtml",
+              "ToolTip": "C:\\Users\\marjo\\OneDrive\\Documentos\\GitHub\\Practica3PrograAvanzada\\ProyectoGrupo4\\Views\\Comentarios\\Create.cshtml",
+              "RelativeToolTip": "ProyectoGrupo4\\Views\\Comentarios\\Create.cshtml",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAACEAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-26T06:42:42.131Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\marjo\\OneDrive\\Documentos\\GitHub\\Practica3PrograAvanzada\\ProyectoGrupo4\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "ProyectoGrupo4\\Views\\Home\\Index.cshtml",
@@ -322,38 +339,37 @@
               "RelativeToolTip": "ProyectoGrupo4\\Views\\Home\\Index.cshtml",
               "ViewState": "AgIAADcAAAAAAAAAAADwv1UAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-25T05:27:11.747Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-25T05:27:11.747Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\marjo\\OneDrive\\Documentos\\GitHub\\Practica3PrograAvanzada\\ProyectoGrupo4\\Views\\Comentarios\\Index.cshtml",
               "RelativeDocumentMoniker": "ProyectoGrupo4\\Views\\Comentarios\\Index.cshtml",
               "ToolTip": "C:\\Users\\marjo\\OneDrive\\Documentos\\GitHub\\Practica3PrograAvanzada\\ProyectoGrupo4\\Views\\Comentarios\\Index.cshtml",
               "RelativeToolTip": "ProyectoGrupo4\\Views\\Comentarios\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAYAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABMAAABUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-11-26T02:51:49.867Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "Login.cshtml",
               "DocumentMoniker": "C:\\Users\\marjo\\OneDrive\\Documentos\\GitHub\\Practica3PrograAvanzada\\ProyectoGrupo4\\Views\\Account\\Login.cshtml",
               "RelativeDocumentMoniker": "ProyectoGrupo4\\Views\\Account\\Login.cshtml",
               "ToolTip": "C:\\Users\\marjo\\OneDrive\\Documentos\\GitHub\\Practica3PrograAvanzada\\ProyectoGrupo4\\Views\\Account\\Login.cshtml",
               "RelativeToolTip": "ProyectoGrupo4\\Views\\Account\\Login.cshtml",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABsAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-11-25T05:49:06.085Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 4,
               "Title": "HomeController.cs",
               "DocumentMoniker": "C:\\Users\\marjo\\OneDrive\\Documentos\\GitHub\\Practica3PrograAvanzada\\ProyectoGrupo4\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "ProyectoGrupo4\\Controllers\\HomeController.cs",
@@ -361,11 +377,12 @@
               "RelativeToolTip": "ProyectoGrupo4\\Controllers\\HomeController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-26T02:51:24.009Z"
+              "WhenOpened": "2025-11-26T02:51:24.009Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 3,
               "Title": "Comentario.cs",
               "DocumentMoniker": "C:\\Users\\marjo\\OneDrive\\Documentos\\GitHub\\Practica3PrograAvanzada\\ProyectoGrupo4\\Models\\Comentario.cs",
               "RelativeDocumentMoniker": "ProyectoGrupo4\\Models\\Comentario.cs",
@@ -373,11 +390,12 @@
               "RelativeToolTip": "ProyectoGrupo4\\Models\\Comentario.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-26T02:50:30.147Z"
+              "WhenOpened": "2025-11-26T02:50:30.147Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 8,
               "Title": "Web.config",
               "DocumentMoniker": "C:\\Users\\marjo\\OneDrive\\Documentos\\GitHub\\Practica3PrograAvanzada\\ProyectoGrupo4\\Web.config",
               "RelativeDocumentMoniker": "ProyectoGrupo4\\Web.config",
@@ -390,20 +408,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 5,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "C:\\Users\\marjo\\OneDrive\\Documentos\\GitHub\\Practica3PrograAvanzada\\ProyectoGrupo4\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "ProyectoGrupo4\\Views\\Shared\\_Layout.cshtml",
               "ToolTip": "C:\\Users\\marjo\\OneDrive\\Documentos\\GitHub\\Practica3PrograAvanzada\\ProyectoGrupo4\\Views\\Shared\\_Layout.cshtml",
               "RelativeToolTip": "ProyectoGrupo4\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAABsAAAAAAAAAA==",
+              "ViewState": "AgIAACoAAAAAAAAAAAAAADoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-11-25T05:20:20.094Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 7,
               "Title": "AccountViewModels.cs",
               "DocumentMoniker": "C:\\Users\\marjo\\OneDrive\\Documentos\\GitHub\\Practica3PrograAvanzada\\ProyectoGrupo4\\Models\\AccountViewModels.cs",
               "RelativeDocumentMoniker": "ProyectoGrupo4\\Models\\AccountViewModels.cs",
@@ -415,7 +433,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "ComentariosController.cs",
               "DocumentMoniker": "C:\\Users\\marjo\\OneDrive\\Documentos\\GitHub\\Practica3PrograAvanzada\\ProyectoGrupo4\\Controllers\\ComentariosController.cs",
               "RelativeDocumentMoniker": "ProyectoGrupo4\\Controllers\\ComentariosController.cs",
@@ -427,7 +445,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 9,
               "Title": "Web.config",
               "DocumentMoniker": "C:\\Users\\marjo\\OneDrive\\Documentos\\GitHub\\Practica3PrograAvanzada\\ProyectoGrupo4\\Web.config",
               "RelativeDocumentMoniker": "ProyectoGrupo4\\Web.config",
@@ -439,7 +457,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "PracticaException.cs",
               "DocumentMoniker": "C:\\Users\\marjo\\OneDrive\\Documentos\\GitHub\\Practica3PrograAvanzada\\ProyectoGrupo4\\Common\\PracticaException.cs",
               "RelativeDocumentMoniker": "ProyectoGrupo4\\Common\\PracticaException.cs",
@@ -451,7 +469,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 19,
               "Title": "Lockout.cshtml",
               "DocumentMoniker": "C:\\Users\\marjo\\OneDrive\\Documentos\\GitHub\\Practica3PrograAvanzada\\ProyectoGrupo4\\Views\\Shared\\Lockout.cshtml",
               "RelativeDocumentMoniker": "ProyectoGrupo4\\Views\\Shared\\Lockout.cshtml",
@@ -463,7 +481,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 14,
               "Title": "ComentariosController.cs",
               "DocumentMoniker": "C:\\Users\\marjo\\OneDrive\\Documentos\\GitHub\\Practica3PrograAvanzada\\ProyectoGrupo4\\Controllers\\ComentariosController.cs",
               "RelativeDocumentMoniker": "ProyectoGrupo4\\Controllers\\ComentariosController.cs",
@@ -475,7 +493,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 17,
               "Title": "NoEncontrada.cshtml",
               "DocumentMoniker": "C:\\Users\\marjo\\OneDrive\\Documentos\\GitHub\\Practica3PrograAvanzada\\ProyectoGrupo4\\Views\\Error\\NoEncontrada.cshtml",
               "RelativeDocumentMoniker": "ProyectoGrupo4\\Views\\Error\\NoEncontrada.cshtml",
@@ -487,7 +505,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "AccountController.cs",
               "DocumentMoniker": "C:\\Users\\marjo\\OneDrive\\Documentos\\GitHub\\Practica3PrograAvanzada\\ProyectoGrupo4\\Controllers\\AccountController.cs",
               "RelativeDocumentMoniker": "ProyectoGrupo4\\Controllers\\AccountController.cs",
@@ -499,7 +517,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 16,
               "Title": "General.cshtml",
               "DocumentMoniker": "C:\\Users\\marjo\\OneDrive\\Documentos\\GitHub\\Practica3PrograAvanzada\\ProyectoGrupo4\\Views\\Error\\General.cshtml",
               "RelativeDocumentMoniker": "ProyectoGrupo4\\Views\\Error\\General.cshtml",
@@ -511,7 +529,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "PracticaException.cs",
               "DocumentMoniker": "C:\\Users\\marjo\\OneDrive\\Documentos\\GitHub\\Practica3PrograAvanzada\\ProyectoGrupo4\\Common\\PracticaException.cs",
               "RelativeDocumentMoniker": "ProyectoGrupo4\\Common\\PracticaException.cs",
@@ -523,7 +541,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 20,
               "Title": "ErrorController.cs",
               "DocumentMoniker": "C:\\Users\\marjo\\OneDrive\\Documentos\\GitHub\\Practica3PrograAvanzada\\ProyectoGrupo4\\Controllers\\ErrorController.cs",
               "RelativeDocumentMoniker": "ProyectoGrupo4\\Controllers\\ErrorController.cs",
@@ -535,7 +553,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 18,
               "Title": "Error.cshtml",
               "DocumentMoniker": "C:\\Users\\marjo\\OneDrive\\Documentos\\GitHub\\Practica3PrograAvanzada\\ProyectoGrupo4\\Views\\Shared\\Error.cshtml",
               "RelativeDocumentMoniker": "ProyectoGrupo4\\Views\\Shared\\Error.cshtml",
@@ -547,7 +565,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 15,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "C:\\Users\\marjo\\OneDrive\\Documentos\\GitHub\\Practica3PrograAvanzada\\ProyectoGrupo4\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "ProyectoGrupo4\\Views\\Shared\\_Layout.cshtml",

@@ -1,17 +1,42 @@
 ﻿@model ProyectoGrupo4.Models.Comentario
 
-<h2>Nuevo comentario</h2>
+<h2 class="text-center mb-4" style="color: #253745;">Nuevo comentario</h2>
 
-@using (Html.BeginForm())
-{
-    @Html.AntiForgeryToken()
+<div class="d-flex justify-content-center">
+    <div class="card shadow-sm p-4" style="max-width: 600px; width: 100%; border-radius: 15px; border: 2px solid #9BA8AB;">
+        @using (Html.BeginForm())
+        {
+            @Html.AntiForgeryToken()
 
-    <div class="form-group">
-        @Html.LabelFor(m => m.Texto)
-        @Html.TextAreaFor(m => m.Texto, new { @class = "form-control", rows = 3 })
-        @Html.ValidationMessageFor(m => m.Texto, "", new { @class = "text-danger" })
+            <div class="form-group mb-4">
+                @Html.LabelFor(m => m.Texto, new { @class = "form-label", style = "font-weight: 600; color: #11212D;" })
+                @Html.TextAreaFor(m => m.Texto, new
+                {
+                    @class = "form-control",
+                    rows = 5,
+                    placeholder = "Escribe tu comentario aquí...",
+                    style = "border-radius: 10px; border: 2px solid #9BA8AB; padding: 15px; font-size: 1rem; resize: vertical;"
+                })
+                @Html.ValidationMessageFor(m => m.Texto, "", new { @class = "text-danger" })
+            </div>
+
+            <div class="d-flex justify-content-center gap-3">
+                <button type="submit" class="btn" style="background-color: #4A5C6A; color: white; border-radius: 25px; padding: 10px 30px; font-weight: 600;">
+                    Publicar
+                </button>
+                @Html.ActionLink("Volver", "Index", null, new
+                {
+                    @class = "btn",
+                    style = "background-color: #9BA8AB; color: white; border-radius: 25px; padding: 10px 30px; font-weight: 600; text-decoration: none;"
+                })
+            </div>
+        }
     </div>
+</div>
 
-    <button type="submit" class="btn btn-success">Publicar</button>
-    @Html.ActionLink("Volver", "Index", null, new { @class = "btn btn-default" })
-}
+<style>
+    .form-control:focus {
+        border-color: #11212D !important;
+        box-shadow: 0 0 0 0.2rem rgba(17, 33, 45, 0.25) !important;
+    }
+</style>
