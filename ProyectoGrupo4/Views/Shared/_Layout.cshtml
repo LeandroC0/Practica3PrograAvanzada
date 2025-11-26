@@ -1,29 +1,54 @@
 ﻿<!DOCTYPE html>
 <html>
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>@ViewBag.Title - BlogG#4</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <title>@ViewBag.Title - Grupo 4</title>
     @Styles.Render("~/Content/css")
     @Scripts.Render("~/bundles/modernizr")
+    <style>
+        .nav-custom {
+            background-color: #9BA8AB !important;
+            padding: 0.5rem 0;
+        }
 
+        .nav-btn {
+            background-color: #11212D !important;
+            color: white !important;
+            border-radius: 25px !important;
+            padding: 8px 20px !important;
+            margin: 0 5px !important;
+            transition: all 0.3s ease !important;
+            border: none !important;
+        }
 
+            .nav-btn:hover {
+                transform: scale(1.1);
+                background-color: #0a171f !important;
+                box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+            }
+
+        .navbar-brand-custom {
+            color: #11212D !important;
+            font-weight: bold;
+            font-size: 1.5rem;
+        }
+    </style>
 </head>
 <body>
-  
-
-    <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-dark bg-primary">
+    <nav class="navbar navbar-expand-sm navbar-toggleable-sm nav-custom">
         <div class="container">
-            @Html.ActionLink("BlogG#4", "Index", "Home", new { area = "" }, new { @class = "navbar-brand" })
+            @Html.ActionLink("Grupo 4", "Index", "Home", new { area = "" }, new { @class = "navbar-brand navbar-brand-custom" })
             <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" title="Alternar navegación" aria-controls="navbarSupportedContent"
                     aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse d-sm-inline-flex justify-content-between">
                 <ul class="navbar-nav flex-grow-1">
-                    <li>@Html.ActionLink("Inicio", "Index", "Home", new { area = "" }, new { @class = "nav-link" })</li>
-                    <li>@Html.ActionLink("Comentarios", "Index", "Comentarios", new { area = "" }, new { @class = "nav-link" })</li>
+                    <li>@Html.ActionLink("Inicio", "Index", "Home", new { area = "" }, new { @class = "nav-link nav-btn" })</li>
+                    <li>@Html.ActionLink("Comentarios", "Index", "Comentarios", new { area = "" }, new { @class = "nav-link nav-btn" })</li>
                 </ul>
                 @Html.Partial("_LoginPartial")
             </div>
@@ -40,14 +65,13 @@
             </div>
 
             <script>
-        
-        setTimeout(function() {
-            var alertNode = document.getElementById('mensajeBienvenida');
-            if(alertNode) {
-                var bsAlert = bootstrap.Alert.getOrCreateInstance(alertNode);
-                bsAlert.close();
-            }
-        }, 5000);
+                setTimeout(function () {
+                    var alertNode = document.getElementById('mensajeBienvenida');
+                    if (alertNode) {
+                        var bsAlert = bootstrap.Alert.getOrCreateInstance(alertNode);
+                        bsAlert.close();
+                    }
+                }, 5000);
             </script>
         }
 
