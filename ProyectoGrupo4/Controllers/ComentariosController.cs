@@ -23,7 +23,6 @@ namespace ProyectoGrupo4.Controllers
                                                 .OrderByDescending(c => c.FechaCreacion)
                                                 .ToList();
 
-                // Enviar datos requeridos por la práctica
                 ViewBag.Usuario = User.Identity.GetUserName();
                 ViewBag.TotalComentarios = comentarios.Count;
 
