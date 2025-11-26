@@ -3,49 +3,80 @@
     ViewBag.Title = "Registrarse";
 }
 
-<main aria-labelledby="title">
-    <h2 id="title">@ViewBag.Title.</h2>
+<link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+<style>
+    header, .header, nav, .navbar {
+        display: none !important;
+    }
 
-    @using (Html.BeginForm("Register", "Account", FormMethod.Post, new { role = "form" }))
-    {
-        @Html.AntiForgeryToken()
-        <h4>Cree una cuenta nueva.</h4>
-        <hr />
-        @Html.ValidationSummary("", new { @class = "text-danger" })
-        <div class="row">
-            @Html.LabelFor(m => m.NombreUsuario, new { @class = "col-md-2 col-form-label" })
-            <div class="col-md-10">
+    body, .card, .form-control, .btn, h2, p, label, .form-label {
+        font-family: "Rubik", sans-serif;
+    }
+
+    body {
+        padding-top: 0 !important;
+        margin: 0 !important;
+        background: linear-gradient(135deg, #253745 0%, #4A5C6A 50%, #9BA8AB 75%, #CCD0CF 100%);
+    }
+
+    .form-control {
+        width: 100% !important;
+        max-width: 100% !important;
+        padding: 10px !important;
+        font-size: 1.1rem !important;
+    }
+
+    .form-label {
+        font-size: 1.1rem !important;
+        font-weight: 600;
+        margin-bottom: 8px;
+    }
+</style>
+
+<div class="container d-flex justify-content-center align-items-center" style="min-height: 100vh;">
+    <div class="card shadow-lg p-5" style="max-width: 650px; width: 100%; border-radius: 18px;">
+
+        <h2 class="text-center mb-3" style="font-weight: bold; color: #253745;">
+            Registrarse
+        </h2>
+
+        @using (Html.BeginForm("Register", "Account", FormMethod.Post, new { @class = "w-100" }))
+        {
+            @Html.AntiForgeryToken()
+            @Html.ValidationSummary("", new { @class = "text-danger" })
+
+            <div class="form-group mb-4">
+                @Html.LabelFor(m => m.NombreUsuario, new { @class = "form-label" })
                 @Html.TextBoxFor(m => m.NombreUsuario, new { @class = "form-control" })
             </div>
-        </div>
 
-        <div class="row">
-            @Html.LabelFor(m => m.Email, new { @class = "col-md-2 col-form-label" })
-            <div class="col-md-10">
+            <div class="form-group mb-4">
+                @Html.LabelFor(m => m.Email, new { @class = "form-label" })
                 @Html.TextBoxFor(m => m.Email, new { @class = "form-control", type = "email" })
             </div>
-        </div>
 
-
-        <div class="row">
-            @Html.LabelFor(m => m.Password, new { @class = "col-md-2 col-form-label" })
-            <div class="col-md-10">
+            <div class="form-group mb-4">
+                @Html.LabelFor(m => m.Password, new { @class = "form-label" })
                 @Html.PasswordFor(m => m.Password, new { @class = "form-control" })
             </div>
-        </div>
-        <div class="row">
-            @Html.LabelFor(m => m.ConfirmPassword, new { @class = "col-md-2 col-form-label" })
-            <div class="col-md-10">
+
+            <div class="form-group mb-4">
+                @Html.LabelFor(m => m.ConfirmPassword, new { @class = "form-label" })
                 @Html.PasswordFor(m => m.ConfirmPassword, new { @class = "form-control" })
             </div>
-        </div>
-        <div class="row">
-            <div class="offset-md-2 col-md-10">
-                <input type="submit" value="Registrarse" class="btn btn-outline-dark" />
-            </div>
-        </div>
-    }
-</main>
+
+            <button type="submit" class="btn w-100"
+                    style="background-color: #4A5C6A; border-radius: 25px; padding: 14px; font-size: 1.1rem; font-weight: bold; color: white;">
+                Registrarse
+            </button>
+
+            <p class="text-center mt-4" style="font-size: 1.1rem;">
+                ¿Ya tiene cuenta?
+                @Html.ActionLink("Iniciar sesión", "Login", "Account", null, new { @class = "fw-bold", style = "font-size: 1.1rem; color: #253745;" })
+            </p>
+        }
+    </div>
+</div>
 
 @section Scripts {
     @Scripts.Render("~/bundles/jqueryval")
